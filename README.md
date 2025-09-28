@@ -1,38 +1,26 @@
-# 🌦️ Weather App (Python Console)
-This is **Day 6** of my 100 Days, 100 Projects in Python Challenge 🚀  
+# Day 7 - Palindrome Checker 🔄
 
-A simple **Weather App** built with Python that fetches **real-time weather data** from the OpenWeatherMap API.  
-This is my **Day 6/100 Project** in the "100 Days, 100 Projects in Python" challenge 🚀
+Today I built a **Palindrome Checker** in Python as part of my **100 Days, 100 Projects Challenge** 🚀  
 
----
+## 📖 About the Project
+A palindrome is a word, phrase, number, or sequence that reads the same backward as forward.  
+Examples: **madam, racecar, 121, 1221, never odd or even**
 
-## ✨ Features
-- Get live weather details by entering any city name
-- Shows:
-  - 🌡️ Temperature (Celsius)
-  - 🤔 Feels Like Temperature
-  - 💧 Humidity
-  - 🌬️ Wind Speed
-  - Weather Condition (Sunny, Rainy, Cloudy, etc.)
-- Loop mode → check multiple cities
-- Exit anytime by typing `exit`
+This Python program checks if the given input is a palindrome or not.  
 
----
+## 🔑 Key Learnings
+- String manipulation in Python  
+- Using slicing (`[::-1]`) to reverse strings  
+- Handling case sensitivity and spaces  
+- Writing reusable functions  
 
-## 🛠️ Requirements
-- Python 3.x
-- [Requests](https://pypi.org/project/requests/) library
+## 🖥️ Example Run
 
-Install requests:
-```bash
-pip install requests
-Go to this https://home.openweathermap.org site and get the api and past it the weatherapi.py api = your api key 
-python weatherapi.py
+  Welcome to Palindrome Checker
+  Enter the word/number: madam
+  The given madam is a palindrome
+  
+  Welcome to Palindrome Checker
+  Enter the word/number: 121
+  The given 121 is a palindrome
 
-Enter city name (or 'exit' to quit): Chennai
-
-Weather in Chennai: Clear Sky
-🌡️ Temperature: 32°C
-🤔 Feels like: 34°C
-💧 Humidity: 60%
-🌬️ Wind Speed: 2.5 m/s
