@@ -16,11 +16,12 @@ This Python program checks if the given input is a palindrome or not.
 
 ## 🖥️ Example Run
 
-  Welcome to Palindrome Checker
-  Enter the word/number: madam
-  The given madam is a palindrome
   
-  Welcome to Palindrome Checker
-  Enter the word/number: 121
-  The given 121 is a palindrome
-
+   Welcome to Palindrome Checker
+   Enter the word/number: madam
+   The given madam is a palindrome
+  
+   Welcome to Palindrome Checker
+   Enter the word/number: 121
+   The given 121 is a palindrome
+ 
